@@ -1,11 +1,18 @@
 ---
 title: "Lab8_Korb_Vignette"
-output: rmarkdown::html_vignette
+author: "Kelsey Korb"
+date: '`r Sys.Date()`'
+output:
+  rmarkdown::html_document:
+    toc: true
+    toc_float: true
 vignette: >
   %\VignetteIndexEntry{Lab8_Korb_Vignette}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
