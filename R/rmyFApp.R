@@ -5,7 +5,7 @@
 #'
 #' @return Launches interactive Shiny app
 #' @export
-#' @examples
+#' @examplesIf interactive()
 #' rmyFApp()
 rmyFApp <- function() {
   appDir <- system.file("shiny", "rmyFApp", package = "Lab8KORBMath4753")

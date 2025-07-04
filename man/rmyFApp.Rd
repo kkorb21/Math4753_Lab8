@@ -14,5 +14,7 @@ This function launches a Shiny app that visualizes and summarizes simulations
 of B = X + Y using the inverse CDF optimization method.
 }
 \examples{
+\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 rmyFApp()
+\dontshow{\}) # examplesIf}
 }

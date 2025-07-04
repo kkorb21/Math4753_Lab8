@@ -8,5 +8,3 @@ appId: 15030938
 bundleId:
 url: https://kkorb.shinyapps.io/Lab8_rmyFApp/
 version: 1
-asMultiple: FALSE
-asStatic: FALSE
