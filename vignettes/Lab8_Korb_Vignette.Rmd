@@ -615,4 +615,7 @@ Overall, **rmyF()** accurately replicates the shape and statistical properties o
 
 Our SHINY app will simulate $B$ using a single controlling input for the iterations option in the above function.
 
+URL for shinyapps.io:
+http://kkorb.shinyapps.io/Lab8_rmyFApp
+
 ![](images/SHINYApp_Lab8.png)
