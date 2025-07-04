@@ -1,0 +1,26 @@
+Package: Lab8KORBMath4753
+Type: Package
+Title: Lab 8: Bivariate Distributions
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Kelsey", "Korb",
+      email = "kelsey.e.korb-1@ou.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Details bivariate distributions and applies the theory to an UP-DOWN maintained system.
+    All tools developed up till now will be required in order to successfully bundle created functions and SHINY app into an errorless package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+  ggplot2,
+  graphics,
+  stats
+Suggests:
+    knitr,
+    rmarkdown,
+    shiny
+VignetteBuilder: knitr
